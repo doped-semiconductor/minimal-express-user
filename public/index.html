@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function wrongP(){
+            alert("Wrong Login Credentials")
+        }
+    </script>
+    <div>
+        <form action="/login" method="post">
+            <input type="text" name="user">
+            <input type="text" name="pass">
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <hr>
+
+    <div>
+        <form action="/register" method="post">
+            <input type="text" name="user">
+            <input type="text" name="pass">
+            <input type="submit" value="Register">
+        </form>
+    </div>
+    
+</body>
+</html>
